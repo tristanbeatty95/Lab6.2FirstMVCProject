@@ -10,21 +10,37 @@
 <title>CUSTOM PIZZA</title>
 </head>
 <body>
-<h1 class="header">Build Your Own Pizza</h1>
-
-<div class="styleform">
+<div class="header">
+<h1>Build Your Own Pizza</h1>
+</div>
+<div class="custom-select" style="width:200px;">
 <form action="/custom" method="post">
-	Size<select name="size">
+	Size<br>
+			<select name="size">
 			<option value="small">Small</option>
 			<option value="medium">Medium</option>
 			<option value="large">Large</option>
 	</select>
-	How Many Toppings?<input name="toppings" type="number"/>
-	Gluten-Free Crust? ($2.00 extra)<input name="glutenFree" type="checkbox"/>
-	Special Instructions? (Optional) <input name="specialInstructions" type="text"/>
+	</form>
+</div>
+	<br>
+	<br>
+<div class="inputs">
+<form>
+	How Many Toppings?    <input name="toppings" type="number"/>
+	<br>
+	<br>
+	Gluten-Free Crust? ($2.00 extra)  <input name="glutenFree" type="checkbox"/>
+	<br>
+	<br>
+	Special Instructions? (Optional)     <input name="specialInstructions" type="text"/>
+	<br>
+	<br>
 	<input type="submit" class="button"/>
 </form>
 </div>
+<br>
+<br>
 <a href="/" class="button">Home</a>
 </body>
 </html>
