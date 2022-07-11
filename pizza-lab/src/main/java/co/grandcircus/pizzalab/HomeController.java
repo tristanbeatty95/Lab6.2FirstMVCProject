@@ -52,6 +52,16 @@ public class HomeController {
 		model.addAttribute("name", name);
 		model.addAttribute("comment", comment);
 		model.addAttribute("rating", rating);
+		
+		if(name.length() == 0) {
+			name = "n/a";
+		} 
+		if(comment.length() < 5) {
+			comment = "no comment";
+		}
+		if(rating == 0) {
+			rating = 0;
+		}
 		return "displayReview";
 	}
 	

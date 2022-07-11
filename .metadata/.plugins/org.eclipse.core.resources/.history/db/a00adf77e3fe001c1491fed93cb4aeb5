@@ -1,0 +1,72 @@
+body {
+    background-color: beige;
+
+}
+
+.header {
+    font-size: 40px;
+    font-family: Copperplate;
+}
+
+.links {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Copperplate;
+}
+
+.button {
+	padding: 6px, 10px;
+    background-color: #f44336;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: Copperplate;
+    font-style: italic;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+p {
+    font-size: 22px;
+    font-family: Copperplate;
+    font-style: italic;
+}
+
+.specialty {
+    font-size: 22px;
+    font-family: Copperplate;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: Copperplate;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: Copperplate;
+    font-style: italic;
+}
+
+.custom-select {
+    position: relative;
+  font-family: Copperplate;
+}
+
+input {
+    width: 25%;
+}
+
+input[type=checkbox] {
+    width: 5%;
+}
+
+form {
+    font-size:22px;
+    font-family:Copperplate;
+}

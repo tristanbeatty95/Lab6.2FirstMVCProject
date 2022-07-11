@@ -27,7 +27,7 @@
 	<br>
 <div class="inputs">
 <form>
-	How Many Toppings?    <input name="toppings" type="number"/>
+	How Many Toppings? 0-10   <input min=0 max=10 name="toppings" type="number"/>
 	<br>
 	<br>
 	Gluten-Free Crust? ($2.00 extra)  <input name="glutenFree" type="checkbox"/>

@@ -1,8 +1,0 @@
-package co.grandcircus.pizzalab;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class HomeController {
-
-}
